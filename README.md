@@ -1,35 +1,33 @@
-# 🖥️ Simple Java CRUD with Swing GUI
+# Java CRUD Application with Swing GUI and PostgreSQL
 
-A basic desktop CRUD (Create, Read, Update, Delete) application built using Java and Swing.  
-This project demonstrates core Java concepts such as OOP, GUI development, and basic state management.
+This project is a simple desktop-based CRUD (Create, Read, Update, Delete) application built with **Java Swing** for the user interface and **PostgreSQL** for database persistence.
 
----
+### 🔧 Features
 
-## ✨ Features
-
-- 📝 Add, edit, and delete users  
-- 📋 Display users in a dynamic JTable  
-- 🖱️ GUI components: `JFrame`, `JTable`, `JTextField`, `JButton`  
-- 🔄 Real-time table updates after each action
-
----
-
-## 🧠 What I Learned
-
-- How to build a simple Swing interface
-- Using `DefaultTableModel` to manage JTable data
-- Java event handling with action listeners
-- Organizing code using MVC-style separation (Model, Repository, GUI)
+- Add new users
+- List all users
+- Update user details
+- Delete users
+- Persist data using PostgreSQL database
+- Clean and intuitive Java Swing interface
 
 ---
 
-## 💻 Technologies
+### 🛠️ Technologies Used
 
-- Java 8
-- Swing (Java GUI toolkit)
-- IntelliJ IDEA
+- Java 8+
+- Java Swing (GUI)
+- JDBC (Java Database Connectivity)
+- PostgreSQL
+- IntelliJ IDEA (or any Java IDE)
 
 ---
 
-## 📂 Project Structure
+### 🗄️ Database Setup (PostgreSQL)
+
+1. Create the database (via pgAdmin or terminal):
+
+   ```sql
+   CREATE DATABASE crud_java;
+
 
